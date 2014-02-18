@@ -9,4 +9,8 @@ The official Poseidon weblog
 * responsive theme
 
 ##Deploy
-http://docs.ghost.org/installation/deploy/
+
+to run in production with forever
+
+	npm install forever -g
+	NODE_ENV=production forever start index.js
