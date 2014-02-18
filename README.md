@@ -10,7 +10,8 @@ The official Poseidon weblog
 
 ##Deploy
 
-to run in production with forever
+to run in production with forever, run the following commands from the root of the project
 
+	npm install
 	npm install forever -g
 	NODE_ENV=production forever start index.js
